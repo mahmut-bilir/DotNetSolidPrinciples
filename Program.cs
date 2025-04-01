@@ -8,3 +8,8 @@ IPayment payPal = new PayPalPayment();
 PaymentServices cc = new PaymentServices();
 cc.Pay(creditCart);
 cc.Pay(payPal);
+
+
+IDevice lightBulb = new LightBulb();
+Switch _switch = new Switch(lightBulb);
+_switch.Press();
